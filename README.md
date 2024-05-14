@@ -32,3 +32,7 @@ npm install tailwindcss-container-query
 npm install tailwind-hamburgers --save
 npm install tailwindcss-aspect-ratio
 npm install @tailwindcss/typography
+
+ng update @angular/core@16 @angular/cli@16
+
+TODO: JAY
