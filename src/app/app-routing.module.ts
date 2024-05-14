@@ -4,13 +4,17 @@ import { RouterModule, Routes,  TitleStrategy, RouterStateSnapshot } from '@angu
 import { GuestProfileComponent } from './guest-profile/guest-profile.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
+import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
 
 
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
   { path: 'sitemap', component: SitemapComponent },
   { path: 'page-not-found', component: PageNotFoundComponent },
-  { path: '',  redirectTo: 'guest', pathMatch: "full" },
+  { path: 'guest-sign-in', component: A01aGuestSignInComponent},
+  { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
+  { path: '',  redirectTo: 'guest'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
 
