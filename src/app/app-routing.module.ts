@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'page-not-found', component: PageNotFoundComponent },
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
-  { path: '',  redirectTo: 'guest'},
+  { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
 
