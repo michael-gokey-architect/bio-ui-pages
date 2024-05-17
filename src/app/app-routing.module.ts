@@ -14,6 +14,7 @@ import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-u
 import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   { path: 'sitemap', component: SitemapComponent },
   { path: 'header', component: HeaderComponent },
+  { path: 'footer', component: FooterComponent },
   { path: 'page-not-found', component: PageNotFoundComponent },
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
