@@ -27,6 +27,7 @@ module.exports = {
           'font-color': '#ffffff'
         }
       },
+<<<<<<< HEAD
       fontFamily: {
         'theme1': {
           sans: ['Graphik', 'sans-serif'],
@@ -37,6 +38,13 @@ module.exports = {
           serif: ['Playfair', 'serif'],
         },
 
+=======
+      extend: {
+        fontFamily: {
+          sans: ['Graphik', 'sans-serif'],
+          serif: ['Merriweather', 'serif'],
+        },
+>>>>>>> 2f17fc8384853e2e840dd79f28c28fddd826d41f
       },
       extend: {
         spacing: {
