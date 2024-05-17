@@ -32,6 +32,7 @@ import { SitemapComponent } from './sitemap/sitemap.component';
 import { GuestProfileComponent } from './guest-profile/guest-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageErrorComponent } from './page-error/page-error.component';
+import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { PageErrorComponent } from './page-error/page-error.component';
     SitemapComponent,
     GuestProfileComponent,
     PageNotFoundComponent,
-    PageErrorComponent
+    PageErrorComponent,
+    A02aUpdateYourPasswordComponent
   ],
   imports: [
     BrowserModule,

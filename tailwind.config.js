@@ -23,9 +23,11 @@ module.exports = {
           'senary': '#FF7F50',
         }
       },
-      fontFamily: {
-        sans: ['Graphik', 'sans-serif'],
-        serif: ['Merriweather', 'serif'],
+      extend: {
+        fontFamily: {
+          sans: ['Graphik', 'sans-serif'],
+          serif: ['Merriweather', 'serif'],
+        },
       },
       extend: {
         spacing: {

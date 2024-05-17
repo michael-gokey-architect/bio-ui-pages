@@ -6,6 +6,7 @@ import { SitemapComponent } from './sitemap/sitemap.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { A01c2GuestAboutComponent } from './a01c2-guest-about/a01c2-guest-about.component'
 import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component'
+import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component'
 
 import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
 import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'page-not-found', component: PageNotFoundComponent },
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
+  { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
