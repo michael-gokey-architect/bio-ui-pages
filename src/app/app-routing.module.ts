@@ -10,6 +10,7 @@ import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02
 
 import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
 import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
+import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
   { path: 'update-password', component: A02aUpdateYourPasswordComponent},
+  { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];

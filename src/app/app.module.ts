@@ -33,6 +33,7 @@ import { GuestProfileComponent } from './guest-profile/guest-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageErrorComponent } from './page-error/page-error.component';
 import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component';
+import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02
     GuestProfileComponent,
     PageNotFoundComponent,
     PageErrorComponent,
-    A02aUpdateYourPasswordComponent
+    A02aUpdateYourPasswordComponent,
+    A04aHamburgerNavComponent
   ],
   imports: [
     BrowserModule,
