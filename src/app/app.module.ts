@@ -1,5 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {bootstrapApplication} from '@angular/platform-browser';
+import {provideHttpClient} from '@angular/common/http';
+import {provideAnimations, BrowserAnimationsModule} from '@angular/platform-browser/animations';
+// import {VERSION as CDK_VERSION} from '@angular/cdk';
+import {VERSION as MAT_VERSION, MatNativeDateModule} from '@angular/material/core';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,6 +42,8 @@ import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02
 import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+
+
 
 @NgModule({
   declarations: [
@@ -76,7 +84,9 @@ import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-land
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatExpansionModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
