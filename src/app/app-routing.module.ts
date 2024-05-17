@@ -12,6 +12,7 @@ import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-i
 import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
 import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
+import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
+  { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];

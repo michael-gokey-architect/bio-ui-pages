@@ -35,6 +35,7 @@ import { PageErrorComponent } from './page-error/page-error.component';
 import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component';
 import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
+import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05
     PageErrorComponent,
     A02aUpdateYourPasswordComponent,
     A04aHamburgerNavComponent,
-    A05bGuestPublicLandingComponent
+    A05bGuestPublicLandingComponent,
+    B04aVendorAboutLandingDisplayComponent
   ],
   imports: [
     BrowserModule,
