@@ -11,7 +11,7 @@ import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-i
 import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
 import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welcome.component';
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
-import { A01c2GuestAboutComponent } from './a01c2-guest-about/a01c2-guest-about.component';
+import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
 import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component';
 import { A01d1GuestHomeComponent } from './a01d1-guest-home/a01d1-guest-home.component';

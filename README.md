@@ -36,3 +36,18 @@ npm install @tailwindcss/typography
 ng update @angular/core@16 @angular/cli@16
 
 
+## Robynes adding list for Jay to build
+01b-guest-welcome
+01c3-guest-social-media
+01a-guest-sign-in
+01a-guest-sign-up
+
+
+## Michael's moving out list
+* a01c2-guest-about & image
+* a02a-update-your-password ~ had no starting image
+* a04a-hamburger-nav ~ had no starting image
+* b04a-vendor-about-landing-display & image
+* guest-profile ~ had no starting image
+
+

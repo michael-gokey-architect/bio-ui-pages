@@ -5,7 +5,7 @@ import { GuestProfileComponent } from './built/guest-profile/guest-profile.compo
 import { SitemapComponent } from './sitemap/sitemap.component';
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { A01c2GuestAboutComponent } from './a01c2-guest-about/a01c2-guest-about.component'
+// import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component'
 import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component'
 // import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component'
 
@@ -19,7 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
-  { path: 'guest-about', component: A01c2GuestAboutComponent },
+  // { path: 'guest-about', component: A01c2GuestAboutComponent },
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
   { path: 'guest-weblinks', component: A01c4GuestWebLinksComponent },
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
