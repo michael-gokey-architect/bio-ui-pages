@@ -31,13 +31,13 @@ import { D09eQuestsRedeemedComponent } from './d09e-quests-redeemed/d09e-quests-
 import { E08aEventHomeComponent } from './e08a-event-home/e08a-event-home.component';
 import { E08bEventScheduleComponent } from './e08b-event-schedule/e08b-event-schedule.component';
 import { SitemapComponent } from './sitemap/sitemap.component';
-import { GuestProfileComponent } from './guest-profile/guest-profile.component';
+import { GuestProfileComponent } from './built/guest-profile/guest-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageErrorComponent } from './page-error/page-error.component';
-import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component';
-import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
+import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component';
+import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
-import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 
 
 
