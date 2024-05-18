@@ -17,6 +17,10 @@ import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05
 import { FooterComponent } from './footer/footer.component';
 
 
+import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welcome.component';
+import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
+
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
   // { path: 'guest-about', component: A01c2GuestAboutComponent },
@@ -32,6 +36,12 @@ const routes: Routes = [
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'page-not-found', component: PageNotFoundComponent },
+  { path: 'guest-welcome', component: A01bGuestWelcomeComponent},
+  { path: 'update-password', component: A02aUpdateYourPasswordComponent},
+  { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
+  { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
+  { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
+  { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
