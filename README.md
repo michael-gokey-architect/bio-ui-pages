@@ -40,3 +40,60 @@ TODO: JAY
 And RP fix 
 
 Hello Michael
+
+
+TODO: Michael
+Here is the list of updated image file names:
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01b-guest-welcome-back
+a01c2-guest-about
+a01c3-guest-social-media
+a01c4-guest-web-links
+a02a-update-your-password
+a02a2-update-your-password
+a02a3-update-your-password
+a04a-hamburger-nav
+a04a2-ham-nav-manage-account
+a04a3-ham-nav-manage-alias
+a05a-guest-profile-landing
+a05b-guest-public-landing
+b04a-vendor-about
+b04a-vendor-about-landing-display
+b04b-vendor-bio-landing-display
+b04c-vendor-about
+b04d-vendor-Media-kit -display
+c05c-event-landing
+
+
+This component (a01d1-guest-home) image name has been updated to a05b-guest-public-landing
+
+This component (a01d2-guest-display) image name has been updated to a05a-guest-profile-landing.png
+
+(b04a-vendor-bio-about) updated to b04a-vendor-about-landing-display
+(b04b-vendor-bio-landing-display) to b04b-vendor-bio-landing-display
+(b04c-vendor-media-build) to b04c-vendor-about 
+
+These don't have screens - did we need additional shop pages designed?
+-- b04f-vendor-store-connect
+-- b04g-vendor-store-connect-codes
+
+These screens are in the works -- 
+d09a-quest-badges   through   e08b-event-schedule
+
+
+These are all of the components that have updated images as of this session:
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01b-guest-welcome-back
+a01c3-guest-social-media
+a01d1-guest-home
+a01d2-guest-display
+b04a-vendor-bio-about
+b04b-vendor-bio-landing-display
+b04c-vendor-media-build
+b04d-vendor-media-display
+b04e-vendor-shop-display
+
