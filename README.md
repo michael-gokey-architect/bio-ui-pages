@@ -97,3 +97,38 @@ b04c-vendor-media-build
 b04d-vendor-media-display
 b04e-vendor-shop-display
 
+
+
+TODO:Jay
+Round 3 (fri May 17)
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01c3-guest-social-media
+
+
+Round 4 (sat May 18)
+a01b-guest-welcome-back
+a02a2-update-your-password
+a02a3-update-your-password
+a04a2-ham-nav-manage-account
+
+
+Round 5 (sun May 19)
+a05a-guest-profile-landing
+b04d-vendor-media-kit-display
+b04e-vendor-shop-displayb04b-vendor-bio-landing-display 
+
+
+Round 6 (mon May 20)
+c05c-event-landing
+b04c-vendor-about
+d09a-quest-badges
+d09b-quest-stats 
+
+
+Round 7 (tue May 21)
+d09d-quest-rewards
+TBD
+TBD
+TBD
