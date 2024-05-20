@@ -132,3 +132,5 @@ d09d-quest-rewards
 TBD
 TBD
 TBD
+
+a few more things
