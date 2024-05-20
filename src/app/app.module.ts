@@ -13,7 +13,7 @@ import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welco
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
 import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
-import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component';
+import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
 import { A01d1GuestHomeComponent } from './a01d1-guest-home/a01d1-guest-home.component';
 import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
 import { B04aVendorBioAboutComponent } from './b04a-vendor-bio-about/b04a-vendor-bio-about.component';
@@ -36,8 +36,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PageErrorComponent } from './page-error/page-error.component';
 import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component';
 import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
-import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
+import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
 
 
 
@@ -76,7 +77,8 @@ import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-abou
     A02aUpdateYourPasswordComponent,
     A04aHamburgerNavComponent,
     A05bGuestPublicLandingComponent,
-    B04aVendorAboutLandingDisplayComponent
+    B04aVendorAboutLandingDisplayComponent,
+    ThemeSwitcherComponent
   ],
   imports: [
     BrowserModule,
