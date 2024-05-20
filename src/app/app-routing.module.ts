@@ -36,6 +36,7 @@ const routes: Routes = [
   { path: "**", redirectTo: 'page-not-found' },
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
