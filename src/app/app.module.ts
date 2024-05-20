@@ -7,12 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
-import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
-import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welcome.component';
+import { A01aGuestSignInComponent } from './built/a01a-guest-sign-in/a01a-guest-sign-in.component';
+import { A01aGuestSignUpComponent } from './built/a01a-guest-sign-up/a01a-guest-sign-up.component';
+import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
-import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
+import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
 import { A01d1GuestHomeComponent } from './a01d1-guest-home/a01d1-guest-home.component';
 import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
@@ -30,7 +30,6 @@ import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewar
 import { D09eQuestsRedeemedComponent } from './d09e-quests-redeemed/d09e-quests-redeemed.component';
 import { E08aEventHomeComponent } from './e08a-event-home/e08a-event-home.component';
 import { E08bEventScheduleComponent } from './e08b-event-schedule/e08b-event-schedule.component';
-import { SitemapComponent } from './sitemap/sitemap.component';
 import { GuestProfileComponent } from './built/guest-profile/guest-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageErrorComponent } from './page-error/page-error.component';
@@ -70,7 +69,6 @@ import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.componen
     D09eQuestsRedeemedComponent,
     E08aEventHomeComponent,
     E08bEventScheduleComponent,
-    SitemapComponent,
     GuestProfileComponent,
     PageNotFoundComponent,
     PageErrorComponent,
