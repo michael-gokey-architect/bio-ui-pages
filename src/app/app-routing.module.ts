@@ -6,13 +6,13 @@ import { SitemapComponent } from './sitemap/sitemap.component';
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component'
-import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component'
+// import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component'
 // import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component'
 
 import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
 import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
 // import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
-import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
+// import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 // import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -24,8 +24,8 @@ import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
   // { path: 'guest-about', component: A01c2GuestAboutComponent },
-  { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
-  { path: 'guest-weblinks', component: A01c4GuestWebLinksComponent },
+  // { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
+  // { path: 'guest-weblinks', component: A01c4GuestWebLinksComponent },
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
   
