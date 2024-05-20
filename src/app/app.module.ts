@@ -36,6 +36,7 @@ import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02
 import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-land
     A02aUpdateYourPasswordComponent,
     A04aHamburgerNavComponent,
     A05bGuestPublicLandingComponent,
-    B04aVendorAboutLandingDisplayComponent
+    B04aVendorAboutLandingDisplayComponent,
+    A04a2HamNavManageAccountComponent
   ],
   imports: [
     BrowserModule,

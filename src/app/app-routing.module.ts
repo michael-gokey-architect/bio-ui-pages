@@ -16,6 +16,8 @@ import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-land
 import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welcome.component';
 import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
+import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+
 
 const routes: Routes = [
   { path: 'guest', component: GuestProfileComponent },
@@ -28,6 +30,7 @@ const routes: Routes = [
   { path: 'guest-welcome', component: A01bGuestWelcomeComponent},
   { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
+  { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
   { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
   { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
