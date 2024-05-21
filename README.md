@@ -148,18 +148,20 @@ TBD
 TODO: Michael
 
 a05b-guest-taking-qr
-a05c-guest-taking-connection-indicator
+a05c-guest-connection-indicator
 a06a-guest-connecions-landing
 a06a1-guest-connecions-landing-swipe-left
 a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
 a06b-guest-connecions-landing-search
-a06c-guest-requests-landing-search
+a06c-guest-requests-landing
 a06c1-guest-requests-landing-swipe-left
-a06c2-guest-requests-landing-swipe-right
-a06d-guest-connections-list
-a06d1-guest-connections-list-swipe-left 
-a06d2-guest-connections-list-swipe-right 
+A06c2-guest-requests-landing-swipe-right
 
 
 TODO:Robyne
 file organization and clean up ASAP!
+work on additional screens to show how to view other guest profiles from the connections and requests screens and show a communication thread
+work on translating Kevin's diagram
+work on questing sequence
+
