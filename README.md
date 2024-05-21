@@ -140,8 +140,22 @@ d09b-quest-stats
 
 Round 7 (tue May 21)
 d09d-quest-rewards
-TBD
-TBD
+a05b-guest-taking-qr
+a05c-guest-connection-indicator
+a06a-guest-connecions-landing
+
+
+Round 8 (wed May 22)
+a06a1-guest-connecions-landing-swipe-left
+a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
+a06b-guest-connecions-landing-search
+
+
+Round 9 (thu May 23)
+a06c-guest-requests-landing
+a06c1-guest-requests-landing-swipe-left
+A06c2-guest-requests-landing-swipe-right
 TBD
 
 
