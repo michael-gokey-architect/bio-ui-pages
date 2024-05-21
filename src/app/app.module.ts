@@ -38,6 +38,12 @@ import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hambu
 import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
+import { GuestTakingQrComponent } from './guest-taking-qr/guest-taking-qr.component';
+import { GuestConnectionIndicatorComponent } from './guest-connection-indicator/guest-connection-indicator.component';
+import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
+import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
+import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
+import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 
 
 
@@ -76,7 +82,13 @@ import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.componen
     A04aHamburgerNavComponent,
     A05bGuestPublicLandingComponent,
     B04aVendorAboutLandingDisplayComponent,
-    ThemeSwitcherComponent
+    ThemeSwitcherComponent,
+    GuestTakingQrComponent,
+    GuestConnectionIndicatorComponent,
+    A05bGuestTakingQrComponent,
+    A05cGuestConnectionIndicatorComponent,
+    A06aGuestConnecionsLandingComponent,
+    A06cGuestRequestsLandingComponent
   ],
   imports: [
     BrowserModule,
