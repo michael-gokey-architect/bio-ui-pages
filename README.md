@@ -179,3 +179,10 @@ work on additional screens to show how to view other guest profiles from the con
 work on translating Kevin's diagram
 work on questing sequence
 
+TODO: Michael
+Screen for b04f-vendor-store-connect doesn't exist in figma. Not sure if this is a typo or if you're thinking we need an additional screen?
+same as above for b04g-vendor-store-connect-codes
+
+These component names will need to be updated to match the image names
+d09c-quest-qr has should be changed to a05b-guest-taking-qr
+d09e-quests-redeemed should be changed to d09e-quests-redeemed
