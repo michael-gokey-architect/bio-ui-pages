@@ -140,8 +140,49 @@ d09b-quest-stats
 
 Round 7 (tue May 21)
 d09d-quest-rewards
-TBD
-TBD
+a05b-guest-taking-qr
+a05c-guest-connection-indicator
+a06a-guest-connecions-landing
+
+
+Round 8 (wed May 22)
+a06a1-guest-connecions-landing-swipe-left
+a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
+a06b-guest-connecions-landing-search
+
+
+Round 9 (thu May 23)
+a06c-guest-requests-landing
+a06c1-guest-requests-landing-swipe-left
+A06c2-guest-requests-landing-swipe-right
 TBD
 
-a few more things
+
+TODO: Michael
+
+a05b-guest-taking-qr
+a05c-guest-connection-indicator
+a06a-guest-connecions-landing
+a06a1-guest-connecions-landing-swipe-left
+a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
+a06b-guest-connecions-landing-search
+a06c-guest-requests-landing
+a06c1-guest-requests-landing-swipe-left
+A06c2-guest-requests-landing-swipe-right
+
+
+TODO:Robyne
+file organization and clean up ASAP!
+work on additional screens to show how to view other guest profiles from the connections and requests screens and show a communication thread
+work on translating Kevin's diagram
+work on questing sequence
+
+TODO: Michael
+Screen for b04f-vendor-store-connect doesn't exist in figma. Not sure if this is a typo or if you're thinking we need an additional screen?
+same as above for b04g-vendor-store-connect-codes
+
+These component names will need to be updated to match the image names
+d09c-quest-qr has should be changed to a05b-guest-taking-qr
+d09e-quests-redeemed should be changed to d09e-quests-redeemed
