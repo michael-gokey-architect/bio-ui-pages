@@ -37,6 +37,7 @@ import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-n
 import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-accoun
     A04aHamburgerNavComponent,
     A05bGuestPublicLandingComponent,
     B04aVendorAboutLandingDisplayComponent,
-    A04a2HamNavManageAccountComponent
+    A04a2HamNavManageAccountComponent,
+    B04dVendorMediaKitDisplayComponent
   ],
   imports: [
     BrowserModule,
