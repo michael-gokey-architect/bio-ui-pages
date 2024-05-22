@@ -19,6 +19,7 @@ import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-gu
 import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
+import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.component';
 
 
 const routes: Routes = [
@@ -30,6 +31,7 @@ const routes: Routes = [
   { path: 'guest-sign-in', component: A01aGuestSignInComponent},
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
   { path: 'guest-welcome', component: A01bGuestWelcomeComponent},
+  { path: 'quest-badges', component: D09aQuestBadgesComponent},
   { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
