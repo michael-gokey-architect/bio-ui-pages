@@ -35,4 +35,154 @@ npm install @tailwindcss/typography
 
 ng update @angular/core@16 @angular/cli@16
 
-TODO: JAY
+
+## Robynes adding list for Jay to build
+01b-guest-welcome
+01c3-guest-social-media
+01a-guest-sign-in
+01a-guest-sign-up
+
+
+## Michael's moving out list
+* a01c2-guest-about & image
+* a02a-update-your-password ~ had no starting image
+* a04a-hamburger-nav ~ had no starting image
+* b04a-vendor-about-landing-display & image
+* guest-profile ~ had no starting image
+
+Hello Michael
+
+
+TODO: Michael
+Here is the list of updated image file names:
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01b-guest-welcome-back
+a01c2-guest-about
+a01c3-guest-social-media
+a01c4-guest-web-links
+a02a-update-your-password
+a02a2-update-your-password
+a02a3-update-your-password
+a04a-hamburger-nav
+a04a2-ham-nav-manage-account
+a04a3-ham-nav-manage-alias
+a05a-guest-profile-landing
+a05b-guest-public-landing
+b04a-vendor-about
+b04a-vendor-about-landing-display
+b04b-vendor-bio-landing-display
+b04c-vendor-about
+b04d-vendor-Media-kit -display
+c05c-event-landing
+
+
+This component (a01d1-guest-home) image name has been updated to a05b-guest-public-landing
+
+This component (a01d2-guest-display) image name has been updated to a05a-guest-profile-landing.png
+
+(b04a-vendor-bio-about) updated to b04a-vendor-about-landing-display
+(b04b-vendor-bio-landing-display) to b04b-vendor-bio-landing-display
+(b04c-vendor-media-build) to b04c-vendor-about 
+
+These don't have screens - did we need additional shop pages designed?
+-- b04f-vendor-store-connect
+-- b04g-vendor-store-connect-codes
+
+These screens are in the works -- 
+d09a-quest-badges   through   e08b-event-schedule
+
+
+These are all of the components that have updated images as of this session:
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01b-guest-welcome-back
+a01c3-guest-social-media
+a01d1-guest-home
+a01d2-guest-display
+b04a-vendor-bio-about
+b04b-vendor-bio-landing-display
+b04c-vendor-media-build
+b04d-vendor-media-display
+b04e-vendor-shop-display
+
+
+
+TODO:Jay
+Round 3 (fri May 17)
+a01a-guest-sign-in
+a01a-guest-sign-up
+a01b-guest-welcome
+a01c3-guest-social-media
+
+
+Round 4 (sat May 18)
+a01b-guest-welcome-back
+a02a2-update-your-password
+a02a3-update-your-password
+a04a2-ham-nav-manage-account
+
+
+Round 5 (sun May 19)
+a05a-guest-profile-landing
+b04d-vendor-media-kit-display
+b04e-vendor-shop-displayb04b-vendor-bio-landing-display 
+
+
+Round 6 (mon May 20)
+c05c-event-landing
+b04c-vendor-about
+d09a-quest-badges
+d09b-quest-stats 
+
+
+Round 7 (tue May 21)
+d09d-quest-rewards
+a05b-guest-taking-qr
+a05c-guest-connection-indicator
+a06a-guest-connecions-landing
+
+
+Round 8 (wed May 22)
+a06a1-guest-connecions-landing-swipe-left
+a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
+a06b-guest-connecions-landing-search
+
+
+Round 9 (thu May 23)
+a06c-guest-requests-landing
+a06c1-guest-requests-landing-swipe-left
+A06c2-guest-requests-landing-swipe-right
+TBD
+
+
+TODO: Michael
+
+a05b-guest-taking-qr
+a05c-guest-connection-indicator
+a06a-guest-connecions-landing
+a06a1-guest-connecions-landing-swipe-left
+a06a2-guest-connecions-landing-swipe-right
+a06a3-guest-connecions-landing-scroll
+a06b-guest-connecions-landing-search
+a06c-guest-requests-landing
+a06c1-guest-requests-landing-swipe-left
+A06c2-guest-requests-landing-swipe-right
+
+
+TODO:Robyne
+file organization and clean up ASAP!
+work on additional screens to show how to view other guest profiles from the connections and requests screens and show a communication thread
+work on translating Kevin's diagram
+work on questing sequence
+
+TODO: Michael
+Screen for b04f-vendor-store-connect doesn't exist in figma. Not sure if this is a typo or if you're thinking we need an additional screen?
+same as above for b04g-vendor-store-connect-codes
+
+These component names will need to be updated to match the image names
+d09c-quest-qr has should be changed to a05b-guest-taking-qr
+d09e-quests-redeemed should be changed to d09e-quests-redeemed

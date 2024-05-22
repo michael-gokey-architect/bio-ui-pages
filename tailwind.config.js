@@ -13,6 +13,8 @@ module.exports = {
           'quaternary': '#AAB8C2',
           'quinary': '#E1E8ED',
           'senary': '#F5F8FA',
+          'label-titles': '#000000',
+          'font-color': '#ffffff'
         },
         'theme2': {
           'primary': '#FF6347',
@@ -21,13 +23,20 @@ module.exports = {
           'quaternary': '#FF4500',
           'quinary': '#FFA07A',
           'senary': '#FF7F50',
+          'label-titles': '#000000',
+          'font-color': '#ffffff'
         }
       },
-      extend: {
-        fontFamily: {
+      fontFamily: {
+        'theme1': {
           sans: ['Graphik', 'sans-serif'],
           serif: ['Merriweather', 'serif'],
         },
+        'theme2': {
+          sans: ['Ropo', 'sans-serif'],
+          serif: ['Playfair', 'serif'],
+        },
+
       },
       extend: {
         spacing: {

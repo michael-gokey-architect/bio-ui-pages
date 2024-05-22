@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { A01aGuestSignInComponent } from './a01a-guest-sign-in/a01a-guest-sign-in.component';
-import { A01aGuestSignUpComponent } from './a01a-guest-sign-up/a01a-guest-sign-up.component';
-import { A01bGuestWelcomeComponent } from './a01b-guest-welcome/a01b-guest-welcome.component';
+import { A01aGuestSignInComponent } from './built/a01a-guest-sign-in/a01a-guest-sign-in.component';
+import { A01aGuestSignUpComponent } from './built/a01a-guest-sign-up/a01a-guest-sign-up.component';
+import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
-import { A01c2GuestAboutComponent } from './a01c2-guest-about/a01c2-guest-about.component';
-import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3-guest-social-media.component';
-import { A01c4GuestWebLinksComponent } from './a01c4-guest-web-links/a01c4-guest-web-links.component';
+import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
+import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
+import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
 import { A01d1GuestHomeComponent } from './a01d1-guest-home/a01d1-guest-home.component';
 import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
 import { B04aVendorBioAboutComponent } from './b04a-vendor-bio-about/b04a-vendor-bio-about.component';
@@ -28,14 +30,20 @@ import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewar
 import { D09eQuestsRedeemedComponent } from './d09e-quests-redeemed/d09e-quests-redeemed.component';
 import { E08aEventHomeComponent } from './e08a-event-home/e08a-event-home.component';
 import { E08bEventScheduleComponent } from './e08b-event-schedule/e08b-event-schedule.component';
-import { SitemapComponent } from './sitemap/sitemap.component';
-import { GuestProfileComponent } from './guest-profile/guest-profile.component';
+import { GuestProfileComponent } from './built/guest-profile/guest-profile.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageErrorComponent } from './page-error/page-error.component';
-import { A02aUpdateYourPasswordComponent } from './a02a-update-your-password/a02a-update-your-password.component';
-import { A04aHamburgerNavComponent } from './a04a-hamburger-nav/a04a-hamburger-nav.component';
-import { A05bGuestPublicLandingComponent } from './a05b-guest-public-landing/a05b-guest-public-landing.component';
-import { B04aVendorAboutLandingDisplayComponent } from './b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component';
+import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
+import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
+import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
+import { GuestTakingQrComponent } from './guest-taking-qr/guest-taking-qr.component';
+import { GuestConnectionIndicatorComponent } from './guest-connection-indicator/guest-connection-indicator.component';
+import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
+import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
+import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
+import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 
@@ -67,7 +75,6 @@ import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-disp
     D09eQuestsRedeemedComponent,
     E08aEventHomeComponent,
     E08bEventScheduleComponent,
-    SitemapComponent,
     GuestProfileComponent,
     PageNotFoundComponent,
     PageErrorComponent,
@@ -75,12 +82,21 @@ import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-disp
     A04aHamburgerNavComponent,
     A05bGuestPublicLandingComponent,
     B04aVendorAboutLandingDisplayComponent,
+    ThemeSwitcherComponent,
+    GuestTakingQrComponent,
+    GuestConnectionIndicatorComponent,
+    A05bGuestTakingQrComponent,
+    A05cGuestConnectionIndicatorComponent,
+    A06aGuestConnecionsLandingComponent,
+    A06cGuestRequestsLandingComponent,
     A04a2HamNavManageAccountComponent,
     B04dVendorMediaKitDisplayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatExpansionModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
