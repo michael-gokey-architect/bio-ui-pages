@@ -18,6 +18,7 @@ import { A01c3GuestSocialMediaComponent } from './a01c3-guest-social-media/a01c3
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
 
 
 const routes: Routes = [
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
   { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
   { path: 'vendor-media-display', component: B04dVendorMediaKitDisplayComponent},
+  { path: 'vendor-media-shop', component: B04eVendorShopDisplayComponent},
   { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
   { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
