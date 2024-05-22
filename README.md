@@ -35,9 +35,9 @@ This component (a01d1-guest-home) image name has been updated to a05b-guest-publ
 
 This component (a01d2-guest-display) image name has been updated to a05a-guest-profile-landing.png
 
-(b04a-vendor-bio-about) updated to b04a-vendor-about-landing-display
-(b04b-vendor-bio-landing-display) to b04b-vendor-bio-landing-display
-(b04c-vendor-media-build) to b04c-vendor-about 
+- ( b04a-vendor-bio-about) updated to b04a-vendor-about-landing-display
+- ( b04b-vendor-bio-landing-display) to b04b-vendor-bio-landing-display
+- ( b04c-vendor-media-build) to b04c-vendor-about 
 
 These don't have screens - did we need additional shop pages designed?
 -- b04f-vendor-store-connect
@@ -133,17 +133,17 @@ TODO: Michael 5/21  *build & check components*
 ~~a06c2-guest-requests-landing-swipe-right~~
 
 TODO:Robyne  5/21
-file organization and clean up ASAP!
-work on additional screens to show how to view other guest profiles from the connections and requests screens and show a communication thread
-work on translating Kevin's diagram
-work on questing sequence
+- file organization and clean up ASAP!
+- work on additional screens to show how to view other guest profiles from the connections and requests screens and show a communication thread
+- work on translating Kevin's diagram
+- work on questing sequence
 
 TODO: Michael  5/22
-Screen for b04f-vendor-store-connect doesn't exist in figma. Not sure if this is a typo or if you're thinking we need an additional screen?
+- Screen for b04f-vendor-store-connect doesn't exist in figma. Not sure if this is a typo or if you're thinking we need an additional screen?
 same as above for b04g-vendor-store-connect-codes
 
 
 These component names will need to be updated to match the image names
-d09c-quest-qr has should be changed to a05b-guest-taking-qr
-d09e-quests-redeemed should be changed to d09e-quests-redeemed
+- d09c-quest-qr has should be changed to a05b-guest-taking-qr
+- d09e-quests-redeemed should be changed to d09e-quests-redeemed
 
