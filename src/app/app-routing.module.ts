@@ -17,15 +17,15 @@ import { FooterComponent } from './footer/footer.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 // import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 // import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
-import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
+import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 
 
-import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
-import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
-import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
-import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.component';
-import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.component';
-import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
+import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+import { B04eVendorShopDisplayComponent } from './built/b04e-vendor-shop-display/b04e-vendor-shop-display.component';
+import { D09aQuestBadgesComponent } from './built/d09a-quest-badges/d09a-quest-badges.component';
+import { D09bQuestStatsComponent } from './built/d09b-quest-stats/d09b-quest-stats.component';
+import { D09dQuestRewardsComponent } from './built/d09d-quest-rewards/d09d-quest-rewards.component';
 
 
 const routes: Routes = [
