@@ -20,6 +20,8 @@ import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-accoun
 import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
 import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.component';
+import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.component';
+import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
 
 
 const routes: Routes = [
@@ -32,6 +34,8 @@ const routes: Routes = [
   { path: 'guest-sign-up', component: A01aGuestSignUpComponent},
   { path: 'guest-welcome', component: A01bGuestWelcomeComponent},
   { path: 'quest-badges', component: D09aQuestBadgesComponent},
+  { path: 'quest-stats', component: D09bQuestStatsComponent},
+  { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
