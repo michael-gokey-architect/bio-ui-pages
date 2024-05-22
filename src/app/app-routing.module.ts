@@ -20,6 +20,12 @@ import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-abou
 import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 
 
+import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
+import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.component';
+import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.component';
+import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
 
 
 const routes: Routes = [
@@ -42,11 +48,19 @@ const routes: Routes = [
   // { path: 'update-password', component: A02aUpdateYourPasswordComponent},
   // { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   // { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
-  
+
+  { path: 'quest-badges', component: D09aQuestBadgesComponent},
+  { path: 'quest-stats', component: D09bQuestStatsComponent},
+  { path: 'quest-rewards', component: D09dQuestRewardsComponent},
+  { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
+  { path: 'vendor-media-display', component: B04dVendorMediaKitDisplayComponent},
+  { path: 'vendor-media-shop', component: B04eVendorShopDisplayComponent},
+  { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
   { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
