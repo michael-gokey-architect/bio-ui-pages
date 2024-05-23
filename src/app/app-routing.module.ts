@@ -28,6 +28,8 @@ import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.
 import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.component';
 import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
 import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
+import { GuestConnectionIndicatorComponent } from './guest-connection-indicator/guest-connection-indicator.component';
+import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
 
 
 const routes: Routes = [
@@ -54,6 +56,8 @@ const routes: Routes = [
   { path: 'quest-badges', component: D09aQuestBadgesComponent},
   { path: 'quest-taking-qr', component: A05bGuestTakingQrComponent},
   { path: 'quest-stats', component: D09bQuestStatsComponent},
+  { path: 'quest-connections', component: A05cGuestConnectionIndicatorComponent},
+  { path: 'quest-connection-indicator', component: GuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
   { path: 'vendor-media-display', component: B04dVendorMediaKitDisplayComponent},
