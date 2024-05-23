@@ -121,16 +121,16 @@ TODO:Robyne (5/22)
 
 
 TODO: Michael 5/21  *build & check components*
-~~a05b-guest-taking-qr~~
-~~a05c-guest-connection-indicator~~
-~~a06a-guest-connecions-landing~~
-~~a06a1-guest-connecions-landing-swipe-left~~
-~~a06a2-guest-connecions-landing-swipe-right~~
-~~a06a3-guest-connecions-landing-scroll~~
-~~a06b-guest-connecions-landing-search~~
-~~a06c-guest-requests-landing~~
-~~a06c1-guest-requests-landing-swipe-left~~
-~~a06c2-guest-requests-landing-swipe-right~~
+- ~~a05b-guest-taking-qr~~
+- ~~a05c-guest-connection-indicator~~
+- ~~a06a-guest-connecions-landing~~
+- ~~a06a1-guest-connecions-landing-swipe-left~~
+- ~~a06a2-guest-connecions-landing-swipe-right~~
+- ~~a06a3-guest-connecions-landing-scroll~~
+- ~~a06b-guest-connecions-landing-search~~
+- ~~a06c-guest-requests-landing~~
+- ~~a06c1-guest-requests-landing-swipe-left~~
+- ~~a06c2-guest-requests-landing-swipe-right~~
 
 TODO:Robyne  5/21
 - file organization and clean up ASAP!
