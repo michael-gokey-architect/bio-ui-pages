@@ -29,7 +29,8 @@ import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.com
 import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
 import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
 import { GuestConnectionIndicatorComponent } from './guest-connection-indicator/guest-connection-indicator.component';
-import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
+import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
+import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 
 
 const routes: Routes = [
@@ -56,7 +57,8 @@ const routes: Routes = [
   { path: 'quest-badges', component: D09aQuestBadgesComponent},
   { path: 'quest-taking-qr', component: A05bGuestTakingQrComponent},
   { path: 'quest-stats', component: D09bQuestStatsComponent},
-  { path: 'quest-connections', component: A05cGuestConnectionIndicatorComponent},
+  { path: 'quest-connections', component: A06aGuestConnecionsLandingComponent},
+  { path: 'quest-landing-swipe-left', component: A06a1GuestConnecionsLandingSwipeLeftComponent},
   { path: 'quest-connection-indicator', component: GuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
