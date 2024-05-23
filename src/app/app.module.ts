@@ -47,6 +47,7 @@ import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing
 import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
+import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 
 @NgModule({
   declarations: [
@@ -92,7 +93,8 @@ import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-con
     A06cGuestRequestsLandingComponent,
     A04a2HamNavManageAccountComponent,
     B04dVendorMediaKitDisplayComponent,
-    A06a1GuestConnecionsLandingSwipeLeftComponent
+    A06a1GuestConnecionsLandingSwipeLeftComponent,
+    A06a2GuestConnecionsLandingSwipeRightComponent
   ],
   imports: [
     BrowserModule,
