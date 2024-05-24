@@ -158,3 +158,9 @@ These component names will need to be updated to match the image names
 - d09c-quest-qr has should be changed to a05b-guest-taking-qr
 - d09e-quests-redeemed should be changed to d09e-quests-redeemed
 
+
+TODO: ER
+theme switcher notes
+ https://codepen.io/ryanparag/pen/qBJOQWZ
+ https://codepen.io/madforstudyguy/pen/vYrxMQE check this one out
+
