@@ -19,13 +19,25 @@ import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-abou
 // import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 
+import { GuestTakingQrComponent } from './guest-taking-qr/guest-taking-qr.component';
 
-import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
-import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
-import { B04eVendorShopDisplayComponent } from './built/b04e-vendor-shop-display/b04e-vendor-shop-display.component';
-import { D09aQuestBadgesComponent } from './built/d09a-quest-badges/d09a-quest-badges.component';
-import { D09bQuestStatsComponent } from './built/d09b-quest-stats/d09b-quest-stats.component';
-import { D09dQuestRewardsComponent } from './built/d09d-quest-rewards/d09d-quest-rewards.component';
+import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+import { B04eVendorShopDisplayComponent } from './b04e-vendor-shop-display/b04e-vendor-shop-display.component';
+import { D09aQuestBadgesComponent } from './d09a-quest-badges/d09a-quest-badges.component';
+import { D09bQuestStatsComponent } from './d09b-quest-stats/d09b-quest-stats.component';
+import { D09dQuestRewardsComponent } from './d09d-quest-rewards/d09d-quest-rewards.component';
+import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
+import { GuestConnectionIndicatorComponent } from './guest-connection-indicator/guest-connection-indicator.component';
+import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
+import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
+import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
+import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
+import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
+import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
+import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-requests-landing-swipe-left/a06c1-guest-requests-landing-swipe-left.component';
+import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
+
 
 
 const routes: Routes = [
@@ -50,7 +62,17 @@ const routes: Routes = [
   // { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
 
   { path: 'quest-badges', component: D09aQuestBadgesComponent},
+  { path: 'quest-taking-qr', component: A05bGuestTakingQrComponent},
   { path: 'quest-stats', component: D09bQuestStatsComponent},
+  { path: 'quest-connections', component: A06aGuestConnecionsLandingComponent},
+  { path: 'quest-landing-swipe-left', component: A06a1GuestConnecionsLandingSwipeLeftComponent},
+  { path: 'quest-requests-landing-search', component: A06cGuestRequestsLandingComponent},
+  { path: 'quest-landing-swipe-right', component: A06a2GuestConnecionsLandingSwipeRightComponent},
+  { path: 'quest-landing-scroll', component: A06a3GuestConnecionsLandingScrollComponent},
+  { path: 'quest-landing-search', component: A06bGuestConnecionsLandingSearchComponent},
+  { path: 'quest-requests-landing-swipe-left', component: A06c1GuestRequestsLandingSwipeLeftComponent},
+  { path: 'quest-requests-landing-swipe-right', component: A06c1GuestRequestsLandingSwipeLeftComponent},
+  { path: 'quest-connection-indicator', component: GuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
   { path: 'vendor-media-display', component: B04dVendorMediaKitDisplayComponent},
