@@ -132,16 +132,16 @@ Drawn - I'm keeping Events related items have a file name starting with "c" and 
 
 
 TODO: Michael 5/21  *build & check components*
-~~a05b-guest-taking-qr~~
-~~a05c-guest-connection-indicator~~
-~~a06a-guest-connecions-landing~~
-~~a06a1-guest-connecions-landing-swipe-left~~
-~~a06a2-guest-connecions-landing-swipe-right~~
-~~a06a3-guest-connecions-landing-scroll~~
-~~a06b-guest-connecions-landing-search~~
-~~a06c-guest-requests-landing~~
-~~a06c1-guest-requests-landing-swipe-left~~
-~~a06c2-guest-requests-landing-swipe-right~~
+- ~~a05b-guest-taking-qr~~
+- ~~a05c-guest-connection-indicator~~
+- ~~a06a-guest-connecions-landing~~
+- ~~a06a1-guest-connecions-landing-swipe-left~~
+- ~~a06a2-guest-connecions-landing-swipe-right~~
+- ~~a06a3-guest-connecions-landing-scroll~~
+- ~~a06b-guest-connecions-landing-search~~
+- ~~a06c-guest-requests-landing~~
+- ~~a06c1-guest-requests-landing-swipe-left~~
+- ~~a06c2-guest-requests-landing-swipe-right~~
 
 TODO:Robyne  5/21
 - file organization and clean up ASAP!
@@ -157,4 +157,17 @@ same as above for b04g-vendor-store-connect-codes
 These component names will need to be updated to match the image names
 - d09c-quest-qr has should be changed to a05b-guest-taking-qr
 - d09e-quests-redeemed should be changed to d09e-quests-redeemed
+
+
+TODO: ER 5/24
+theme switcher notes
+ https://codepen.io/ryanparag/pen/qBJOQWZ
+ https://codepen.io/madforstudyguy/pen/vYrxMQE check this one out
+ https://www.npmjs.com/package/@ng-icons/heroicons
+
+TODO: JAY 5/24
+https://www.npmjs.com/package/@ng-icons/heroicons
+
+TODO:Robyne  5/24
+https://www.npmjs.com/package/@ng-icons/heroicons
 
