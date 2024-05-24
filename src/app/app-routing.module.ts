@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 // import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 // import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
-import { A01bGuestWelcomeBackComponent } from './a01b-guest-welcome-back/a01b-guest-welcome-back.component';
+import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 
 import { GuestTakingQrComponent } from './guest-taking-qr/guest-taking-qr.component';
 
@@ -37,6 +37,7 @@ import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecio
 import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-requests-landing-swipe-left/a06c1-guest-requests-landing-swipe-left.component';
 import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
+
 
 
 const routes: Routes = [
