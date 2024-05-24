@@ -51,6 +51,7 @@ import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-co
 import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
 import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
 import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-requests-landing-swipe-left/a06c1-guest-requests-landing-swipe-left.component';
+import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-reque
     A06a2GuestConnecionsLandingSwipeRightComponent,
     A06a3GuestConnecionsLandingScrollComponent,
     A06bGuestConnecionsLandingSearchComponent,
-    A06c1GuestRequestsLandingSwipeLeftComponent
+    A06c1GuestRequestsLandingSwipeLeftComponent,
+    A06c1GuestRequestsLandingSwipeRightComponent
   ],
   imports: [
     BrowserModule,
