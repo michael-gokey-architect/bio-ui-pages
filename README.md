@@ -159,8 +159,15 @@ These component names will need to be updated to match the image names
 - d09e-quests-redeemed should be changed to d09e-quests-redeemed
 
 
-TODO: ER
+TODO: ER 5/24
 theme switcher notes
  https://codepen.io/ryanparag/pen/qBJOQWZ
  https://codepen.io/madforstudyguy/pen/vYrxMQE check this one out
+ https://www.npmjs.com/package/@ng-icons/heroicons
+
+TODO: JAY 5/24
+https://www.npmjs.com/package/@ng-icons/heroicons
+
+TODO:Robyne  5/24
+https://www.npmjs.com/package/@ng-icons/heroicons
 
