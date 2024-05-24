@@ -33,6 +33,7 @@ import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-lan
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
+import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
 
 
 const routes: Routes = [
@@ -63,6 +64,7 @@ const routes: Routes = [
   { path: 'quest-landing-swipe-left', component: A06a1GuestConnecionsLandingSwipeLeftComponent},
   { path: 'quest-landing-swipe-right', component: A06a2GuestConnecionsLandingSwipeRightComponent},
   { path: 'quest-landing-scroll', component: A06a3GuestConnecionsLandingScrollComponent},
+  { path: 'quest-landing-search', component: A06bGuestConnecionsLandingSearchComponent},
   { path: 'quest-connection-indicator', component: GuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},

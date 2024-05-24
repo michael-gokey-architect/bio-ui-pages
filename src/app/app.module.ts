@@ -49,6 +49,7 @@ import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-disp
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
+import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connec
     B04dVendorMediaKitDisplayComponent,
     A06a1GuestConnecionsLandingSwipeLeftComponent,
     A06a2GuestConnecionsLandingSwipeRightComponent,
-    A06a3GuestConnecionsLandingScrollComponent
+    A06a3GuestConnecionsLandingScrollComponent,
+    A06bGuestConnecionsLandingSearchComponent
   ],
   imports: [
     BrowserModule,
