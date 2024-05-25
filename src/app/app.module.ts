@@ -41,8 +41,8 @@ import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-ta
 import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
 import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
 import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
-import { A04a2HamNavManageAccountComponent } from './a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
-import { B04dVendorMediaKitDisplayComponent } from './b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
+import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
