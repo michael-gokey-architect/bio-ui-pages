@@ -8,3 +8,7 @@ import { Component } from '@angular/core';
 export class ThemeSwitcherComponent {
 
 }
+
+
+
+// https://codepen.io/ryanparag/pen/qBJOQWZ

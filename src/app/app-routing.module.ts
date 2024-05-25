@@ -28,6 +28,7 @@ import { D09bQuestStatsComponent } from './built/d09b-quest-stats/d09b-quest-sta
 import { D09dQuestRewardsComponent } from './built/d09d-quest-rewards/d09d-quest-rewards.component';
 import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
 import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
+
 import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
@@ -64,9 +65,9 @@ const routes: Routes = [
   // { path: 'hamburger-nav', component: A04aHamburgerNavComponent},
   // { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
 
-  { path: 'quest-badges', component: D09aQuestBadgesComponent},
+  // { path: 'quest-badges', component: D09aQuestBadgesComponent},
   { path: 'quest-taking-qr', component: A05bGuestTakingQrComponent},
-  { path: 'quest-stats', component: D09bQuestStatsComponent},
+  // { path: 'quest-stats', component: D09bQuestStatsComponent},
   { path: 'quest-connections', component: A06aGuestConnecionsLandingComponent},
   { path: 'quest-landing-swipe-left', component: A06a1GuestConnecionsLandingSwipeLeftComponent},
   { path: 'quest-requests-landing-search', component: A06cGuestRequestsLandingComponent},
@@ -80,6 +81,7 @@ const routes: Routes = [
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
   { path: 'vendor-media-display', component: B04dVendorMediaKitDisplayComponent},
   { path: 'vendor-media-shop', component: B04eVendorShopDisplayComponent},
+
   { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
   { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},

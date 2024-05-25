@@ -14,7 +14,6 @@ import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a
 import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
 import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
-import { A01d1GuestHomeComponent } from './a01d1-guest-home/a01d1-guest-home.component';
 import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
 import { B04aVendorBioAboutComponent } from './b04a-vendor-bio-about/b04a-vendor-bio-about.component';
 import { B04bVendorBioLandingDisplayComponent } from './b04b-vendor-bio-landing-display/b04b-vendor-bio-landing-display.component';
@@ -43,11 +42,13 @@ import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-lan
 import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
+
 import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
 import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
 import { C05cEventLandingComponent } from './c05c-event-landing/c05c-event-landing.component';
+import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,6 @@ import { C05cEventLandingComponent } from './c05c-event-landing/c05c-event-landi
     A01c2GuestAboutComponent,
     A01c3GuestSocialMediaComponent,
     A01c4GuestWebLinksComponent,
-    A01d1GuestHomeComponent,
     A01d2GuestDisplayComponent,
     B04aVendorBioAboutComponent,
     B04bVendorBioLandingDisplayComponent,
@@ -89,13 +89,14 @@ import { C05cEventLandingComponent } from './c05c-event-landing/c05c-event-landi
     A05cGuestConnectionIndicatorComponent,
     A06aGuestConnecionsLandingComponent,
     A06cGuestRequestsLandingComponent,
-    A04a2HamNavManageAccountComponent,
-    B04dVendorMediaKitDisplayComponent,
+    // A04a2HamNavManageAccountComponent,
+    // B04dVendorMediaKitDisplayComponent,
     A06a1GuestConnecionsLandingSwipeLeftComponent,
     A06a2GuestConnecionsLandingSwipeRightComponent,
     A06a3GuestConnecionsLandingScrollComponent,
     A06bGuestConnecionsLandingSearchComponent,
-    C05cEventLandingComponent
+    C05cEventLandingComponent,
+    A01d1GuestLandingM24Component
 
   ],
   imports: [
