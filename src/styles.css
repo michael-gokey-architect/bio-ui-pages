@@ -5,3 +5,19 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.text-patchwrq {
+    color: white;
+}
+
+.bg-patchwrq {
+    background-color: #063771;
+}
+
+.bg-dragoncon {
+    background-color: #60217B;
+}
+
+.bg-nyas {
+    background-color: #C9132F;
+}
