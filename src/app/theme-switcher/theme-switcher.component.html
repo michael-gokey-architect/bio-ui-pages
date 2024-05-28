@@ -1,2 +1,49 @@
-<p>theme-switcher works!</p>
-<p>drop down of themese to use</p>
+<div class="theme-container">
+	<p>THEME PICKER</p>
+	<div class="theme-options">
+		<button (click)="setTheme('protoGrays')">Proto Grays</button>
+		<button (click)="setTheme('pathWRQ')">PathWRQ</button>
+		<button (click)="setTheme('nyAutoshow')">NY Int Autoshow</button>
+		<button (click)="setTheme('dragonCon')">DragonCon</button>
+	</div>
+	<div class="test-switcher" id="proto-grays" *ngIf="theme.protoGrays">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="patchwrq" *ngIf="theme.pathWRQ">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="ny-autoshow" *ngIf="theme.nyAutoshow">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="dragoncon" *ngIf="theme.dragonCon">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+</div>
