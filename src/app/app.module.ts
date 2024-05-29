@@ -49,6 +49,7 @@ import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connec
 import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
 import { C05cEventLandingComponent } from './c05c-event-landing/c05c-event-landing.component';
 import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
+import { OrgDetailsComponent } from './org-details/org-details.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-g
     A06a3GuestConnecionsLandingScrollComponent,
     A06bGuestConnecionsLandingSearchComponent,
     C05cEventLandingComponent,
-    A01d1GuestLandingM24Component
+    A01d1GuestLandingM24Component,
+    OrgDetailsComponent
 
   ],
   imports: [
