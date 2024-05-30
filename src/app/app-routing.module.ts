@@ -13,7 +13,7 @@ import { PageErrorComponent } from './A1-page-error/page-error.component';
 // import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
 // import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 // import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
-import { FooterComponent } from './footer/footer.component';
+
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 // import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 // import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
@@ -34,12 +34,13 @@ import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './coped-over/a06a
 import { A06a2GuestConnecionsLandingSwipeRightComponent } from './coped-over/a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
 import { A06a3GuestConnecionsLandingScrollComponent } from './coped-over/a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
 import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
-import { A06cGuestRequestsLandingComponent } from './coped-over//a06c-guest-requests-landing/a06c-guest-requests-landing.component';
+import { A06cGuestRequestsLandingComponent } from './coped-over/a06c-guest-requests-landing/a06c-guest-requests-landing.component';
+import { A06c1GuestRequestsLandingSwipeLeftComponent } from './coped-over/a06c1-guest-requests-landing-swipe-left/a06c1-guest-requests-landing-swipe-left.component';
 import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
 import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
+import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
-import { IndexLandingComponent } from './index-landing/index-landing.component';
 
 
 
@@ -78,6 +79,8 @@ const routes: Routes = [
   { path: 'quest-landing-swipe-right', component: A06a2GuestConnecionsLandingSwipeRightComponent},
   { path: 'quest-landing-scroll', component: A06a3GuestConnecionsLandingScrollComponent},
   { path: 'quest-landing-search', component: A06bGuestConnecionsLandingSearchComponent},
+  { path: 'quest-requests-landing-swipe-left', component: A06c1GuestRequestsLandingSwipeLeftComponent},
+  { path: 'quest-requests-landing-swipe-right', component: A06c1GuestRequestsLandingSwipeRightComponent},
   { path: 'quest-connection-indicator', component: A05cGuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
@@ -86,6 +89,7 @@ const routes: Routes = [
 
   { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
   { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
+  { path: 'theme-switcher', component: ThemeSwitcherComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];

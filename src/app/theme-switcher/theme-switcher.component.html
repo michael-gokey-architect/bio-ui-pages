@@ -1,2 +1,236 @@
-<p>theme-switcher works!</p>
-<p>drop down of themese to use</p>
+<div class="theme-container">
+	<label for="theme-options">THEME PICKER</label>
+	<div class="theme-options">
+		<select name="theme-options" id="themeoptions" aria-label="ThemeOptions">
+			<option value="themeGrays">Theme Grays</option>
+			<option value="themeBlues">Theme Blues</option>
+			<option value="themeReds">Theme Reds</option>
+			<option value="themePurples">Theme Purples</option>
+		</select>
+	</div>
+	<div class="test-switcher" id="theme-grays" *ngIf="theme === 'themeGrays'">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="theme-blues" *ngIf="theme === 'themeBlues'">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="theme-reds" *ngIf="theme === 'themeReds'">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+	<div class="test-switcher" id="theme-purples" *ngIf="theme === 'themePurples'">
+		<div class="color-block color-one"></div>
+		<div class="color-block color-two"></div>
+		<div class="color-block color-three"></div>
+		<div class="color-block color-four"></div>
+		<div class="color-block color-five"></div>
+		<div class="color-block color-six"></div>
+		<div class="color-block color-seven"></div>
+		<div class="color-block color-eight"></div>
+	</div>
+</div>
+
+<div id="theme-grays" *ngIf="theme === 'themeGrays'">
+	<div class="bg-two p-4">
+
+		<div class="flex">
+
+			<img class="w-16" src="/assets/images/ImgPlaceholder.svg" />
+			<div class="ml-6">
+				<p class="text-lg text uppercase font-medium">
+					full name
+				</p>
+				<div class="grid grid-cols-4 gap-2">
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- About Me section-->
+	<div class="bg-one 0 px-8 text-center py-10">
+		<h1 class="font-bold text-sm uppercase text-center leading-10">about me:</h1>
+		<p class="pb-4 text-sm">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus. Id sunt, quas odit perspiciatis sequi
+			accusantium incidunt odio at esse est sit aliquam corrupti
+		</p>
+	</div>
+
+	<!-- Websites -->
+	<div class="w-9/12 mx-auto mt-8 space-y-6">
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full">
+			Website 1
+		</div>
+
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full ">
+			Website 2
+		</div>
+
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full">
+			Website 3
+		</div>
+	</div>
+
+	<!-- Badges -->
+	<div class="grid grid-cols-3 gap-4 w-10/12 mx-auto mt-12 mb-10">
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Quest
+			</p>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Badges
+			</p>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Rewards
+			</p>
+		</div>
+	</div>
+</div>
+<div id="theme-blues" *ngIf="theme === 'themeBlues'">
+	<div class="bg-two p-4">
+
+		<div class="flex">
+
+			<img class="w-16" src="/assets/images/ImgPlaceholder.svg" />
+			<div class="ml-6">
+				<p class="text-lg text uppercase font-medium">
+					full name
+				</p>
+				<div class="grid grid-cols-4 gap-2">
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+					<div class="w-8 h-8 rounded-full bg-gray-100"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- About Me section-->
+	<div class="bg-one 0 px-8 text-center py-10">
+		<h1 class="font-bold text-sm uppercase text-center leading-10">about me:</h1>
+		<p class="pb-4 text-sm">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, temporibus. Id sunt, quas odit perspiciatis sequi
+			accusantium incidunt odio at esse est sit aliquam corrupti
+		</p>
+	</div>
+
+	<!-- Websites -->
+	<div class="w-9/12 mx-auto mt-8 space-y-6">
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full">
+			Website 1
+		</div>
+
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full ">
+			Website 2
+		</div>
+
+		<div class="ring-1 primary-button ring-gray-600 shadow-md text-center py-3 rounded-full">
+			Website 3
+		</div>
+	</div>
+
+	<!-- Badges -->
+	<div class="grid grid-cols-3 gap-4 w-10/12 mx-auto mt-12 mb-10">
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Quest
+			</p>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Badges
+			</p>
+		</div>
+
+		<div class="flex flex-col items-center">
+			<div class="relative shadow-2xl w-24 h-24 flex items-center justify-center rounded-full bg-three">
+				<div class="absolute inset-0 flex items-center justify-center">
+					<div class="w-12 h-12 bg-two blur-md rounded-full"></div>
+				</div>
+				<div class="text-center w-full text-white z-30">
+					Icon
+				</div>
+			</div>
+			<p class="text-center pt-1 w-full">
+				My Rewards
+			</p>
+		</div>
+	</div>
+</div>

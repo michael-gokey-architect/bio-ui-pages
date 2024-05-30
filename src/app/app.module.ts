@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,7 +14,7 @@ import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a
 import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
 import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
-import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
+import { A01d2GuestDisplayComponent } from './coped-over/coped-over/a01d2-guest-display/a01d2-guest-display.component';
 import { B04aVendorBioAboutComponent } from './b04a-vendor-bio-about/b04a-vendor-bio-about.component';
 import { B04bVendorBioLandingDisplayComponent } from './b04b-vendor-bio-landing-display/b04b-vendor-bio-landing-display.component';
 import { B04cVendorMediaBuildComponent } from './b04c-vendor-media-build/b04c-vendor-media-build.component';
@@ -39,7 +39,7 @@ import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.componen
 import { A05bGuestTakingQrComponent } from './coped-over/a05b-guest-taking-qr/a05b-guest-taking-qr.component';
 import { A05cGuestConnectionIndicatorComponent } from './coped-over/a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
 import { A06aGuestConnecionsLandingComponent } from './coped-over/a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
-import { A06cGuestRequestsLandingComponent } from './coped-over//a06c-guest-requests-landing/a06c-guest-requests-landing.component';
+import { A06cGuestRequestsLandingComponent } from './coped-over/a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
 
@@ -50,7 +50,7 @@ import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-gue
 import { C05cEventLandingComponent } from './a05c-event-landing/c05c-event-landing.component';
 import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
-import { IndexLandingComponent } from './index-landing/index-landing.component';
+import { MaterialModule } from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -68,7 +68,6 @@ import { IndexLandingComponent } from './index-landing/index-landing.component';
     B04aVendorBioAboutComponent,
     B04bVendorBioLandingDisplayComponent,
     B04cVendorMediaBuildComponent,
-    // B04dVendorMediaDisplayComponent,
     B04eVendorShopDisplayComponent,
     B04fVendorStoreConnectComponent,
     B04gVendorStoreConnectCodesComponent,
@@ -91,25 +90,22 @@ import { IndexLandingComponent } from './index-landing/index-landing.component';
     A05cGuestConnectionIndicatorComponent,
     A06aGuestConnecionsLandingComponent,
     A06cGuestRequestsLandingComponent,
-    // A04a2HamNavManageAccountComponent,
-    // B04dVendorMediaKitDisplayComponent,
     A06a1GuestConnecionsLandingSwipeLeftComponent,
     A06a2GuestConnecionsLandingSwipeRightComponent,
     A06a3GuestConnecionsLandingScrollComponent,
     A06bGuestConnecionsLandingSearchComponent,
     C05cEventLandingComponent,
-    A01d1GuestLandingM24Component,
+		A01d1GuestLandingM24Component,
     OrgDetailsComponent,
-    IndexLandingComponent
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatExpansionModule,
-    BrowserAnimationsModule
+    MaterialModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
