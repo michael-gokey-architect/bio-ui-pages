@@ -47,12 +47,13 @@
 		background-color: #CCC;
 	}
 	.color-six,
+	.header,
+	.bg-about,
 	.primary-button
 	{
 		background-color: #DADADA;
 	}
-	.color-seven,
-	.bg-about {
+	.color-seven {
 		background-color: #F6F6F6;
 	}
 	.color-eight {
