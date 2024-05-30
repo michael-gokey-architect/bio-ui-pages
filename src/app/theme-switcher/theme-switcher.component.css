@@ -18,8 +18,10 @@
 	height: 50px;
 }
 
-#proto-grays {
-	.color-one,
+#theme-grays {
+	.color-one {
+		background-color: #000;
+	}
 	.text {
 		color: #000;
 	}
@@ -45,16 +47,20 @@
 	.bg-one {
 		background-color: #F6F6F6;
 	}
-	.color-eight,
+	.color-eight {
+		background-color: #FFF;
+	}
 	.text-white {
 		color: #FFF;
 	}
 }
 
-#patchwrq {
-	.color-one,
-	.text {
+#theme-blues {
+	.color-one {
 		background-color: #000;
+	}
+	.text {
+		color: #000;
 	}
 	.color-two {
 		background-color: #979797;
@@ -78,13 +84,15 @@
 	.bg-one {
 		background-color: #D3E5FD;
 	}
-	.color-eight,
+	.color-eight {
+		background-color: #FFF;
+	}
 	.text-white {
 		color: #FFF;
 	}
 }
 
-#ny-autoshow {
+#theme-reds {
 	.color-one {
 		background-color: #000;
 	}
@@ -107,11 +115,11 @@
 		background-color: #C9132F;
 	}
 	.color-eight {
-		color: #FFF;
+		background-color: #FFF;
 	}
 }
 
-#dragoncon {
+#theme-purples {
 	.color-one {
 		background-color: #000;
 	}
@@ -134,6 +142,6 @@
 		background-color: #C9132F;
 	}
 	.color-eight {
-		color: #FFF;
+		background-color: #FFF;
 	}
 }

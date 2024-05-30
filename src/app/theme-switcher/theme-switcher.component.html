@@ -2,13 +2,13 @@
 	<label for="theme-options">THEME PICKER</label>
 	<div class="theme-options">
 		<select name="theme-options" id="themeoptions" aria-label="ThemeOptions">
-			<option value="protoGrays">Proto Grays</option>
-			<option value="patchWRQ">PatchWRQ</option>
-			<option value="nyAutoshow">NY Int Autoshow</option>
-			<option value="dragonCon">DragonCon</option>
+			<option value="themeGrays">Theme Grays</option>
+			<option value="themeBlues">Theme Blues</option>
+			<option value="themeReds">Theme Reds</option>
+			<option value="themePurples">Theme Purples</option>
 		</select>
 	</div>
-	<div class="test-switcher" id="proto-grays" *ngIf="theme === 'protoGrays'">
+	<div class="test-switcher" id="theme-grays" *ngIf="theme === 'themeGrays'">
 		<div class="color-block color-one"></div>
 		<div class="color-block color-two"></div>
 		<div class="color-block color-three"></div>
@@ -18,7 +18,7 @@
 		<div class="color-block color-seven"></div>
 		<div class="color-block color-eight"></div>
 	</div>
-	<div class="test-switcher" id="patchwrq" *ngIf="theme === 'patchWRQ'">
+	<div class="test-switcher" id="theme-blues" *ngIf="theme === 'themeBlues'">
 		<div class="color-block color-one"></div>
 		<div class="color-block color-two"></div>
 		<div class="color-block color-three"></div>
@@ -28,7 +28,7 @@
 		<div class="color-block color-seven"></div>
 		<div class="color-block color-eight"></div>
 	</div>
-	<div class="test-switcher" id="ny-autoshow" *ngIf="theme === 'nyAutoshow'">
+	<div class="test-switcher" id="theme-reds" *ngIf="theme === 'themeReds'">
 		<div class="color-block color-one"></div>
 		<div class="color-block color-two"></div>
 		<div class="color-block color-three"></div>
@@ -38,7 +38,7 @@
 		<div class="color-block color-seven"></div>
 		<div class="color-block color-eight"></div>
 	</div>
-	<div class="test-switcher" id="dragoncon" *ngIf="theme === 'dragonCon'">
+	<div class="test-switcher" id="theme-purples" *ngIf="theme === 'themePurples'">
 		<div class="color-block color-one"></div>
 		<div class="color-block color-two"></div>
 		<div class="color-block color-three"></div>
@@ -50,7 +50,7 @@
 	</div>
 </div>
 
-<div id="proto-grays" *ngIf="theme === 'protoGrays'">
+<div id="theme-grays" *ngIf="theme === 'themeGrays'">
 	<div class="bg-two p-4">
 
 		<div class="flex">
@@ -142,7 +142,7 @@
 		</div>
 	</div>
 </div>
-<div id="patchwrq" *ngIf="theme === 'patchWRQ'">
+<div id="theme-blues" *ngIf="theme === 'themeBlues'">
 	<div class="bg-two p-4">
 
 		<div class="flex">
