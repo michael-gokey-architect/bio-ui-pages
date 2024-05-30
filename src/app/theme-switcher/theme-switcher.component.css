@@ -21,9 +21,6 @@
 }
 
 #theme-grays {
-	.header-icon {
-		fill: #000;
-	}
 	.color-one {
 		background-color: #000;
 	}
@@ -68,6 +65,9 @@
 }
 
 #theme-blues {
+	.header-icon {
+		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(205deg) brightness(101%) contrast(102%);
+	}
 	.color-one {
 		background-color: #000;
 	}
@@ -83,6 +83,7 @@
 		background-color: #031A35;
 	}
 	.color-four,
+	.header,
 	.bg-profile,
 	.primary-button {
 		background-color: #063771;
@@ -90,7 +91,8 @@
 	.color-five {
 		background-color: #064C91;
 	}
-	.color-six {
+	.color-six,
+	.bg-badge-blur {
 		background-color: #2B5CC4;
 	}
 	.color-seven,
@@ -100,6 +102,9 @@
 	.color-eight {
 		background-color: #FFF;
 	}
+	.header,
+	.bg-profile p,
+	.primary-button,
 	.text-white {
 		color: #FFF;
 	}
