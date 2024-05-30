@@ -3,8 +3,8 @@ import { RouterModule, Routes,  TitleStrategy, RouterStateSnapshot } from '@angu
 // https://www.telerik.com/blogs/angular-basics-router-link-overview
 import { GuestProfileComponent } from './built/guest-profile/guest-profile.component';
 import { HeaderComponent } from './header/header.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { PageErrorComponent } from './page-error/page-error.component';
+import { PageNotFoundComponent } from './A1-page-not-found/page-not-found.component';
+import { PageErrorComponent } from './A1-page-error/page-error.component';
 // import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component'
 // import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component'
 // import { A02aUpdateYourPasswordComponent } from './built/a02a-update-your-password/a02a-update-your-password.component'
@@ -26,20 +26,20 @@ import { B04eVendorShopDisplayComponent } from './built/b04e-vendor-shop-display
 import { D09aQuestBadgesComponent } from './built/d09a-quest-badges/d09a-quest-badges.component';
 import { D09bQuestStatsComponent } from './built/d09b-quest-stats/d09b-quest-stats.component';
 import { D09dQuestRewardsComponent } from './built/d09d-quest-rewards/d09d-quest-rewards.component';
-import { A05bGuestTakingQrComponent } from './a05b-guest-taking-qr/a05b-guest-taking-qr.component';
-import { A05cGuestConnectionIndicatorComponent } from './a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
+import { A05bGuestTakingQrComponent } from './coped-over/a05b-guest-taking-qr/a05b-guest-taking-qr.component';
+import { A05cGuestConnectionIndicatorComponent } from './coped-over/a05c-guest-connection-indicator/a05c-guest-connection-indicator.component';
 
-import { A06aGuestConnecionsLandingComponent } from './a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
-import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
-import { A06a2GuestConnecionsLandingSwipeRightComponent } from './a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
-import { A06a3GuestConnecionsLandingScrollComponent } from './a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
-import { A06bGuestConnecionsLandingSearchComponent } from './a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
-import { A06cGuestRequestsLandingComponent } from './a06c-guest-requests-landing/a06c-guest-requests-landing.component';
-import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-requests-landing-swipe-left/a06c1-guest-requests-landing-swipe-left.component';
+import { A06aGuestConnecionsLandingComponent } from './coped-over/a06a-guest-connecions-landing/a06a-guest-connecions-landing.component';
+import { A06a1GuestConnecionsLandingSwipeLeftComponent } from './coped-over/a06a1-guest-connecions-landing-swipe-left/a06a1-guest-connecions-landing-swipe-left.component';
+import { A06a2GuestConnecionsLandingSwipeRightComponent } from './coped-over/a06a2-guest-connecions-landing-swipe-right/a06a2-guest-connecions-landing-swipe-right.component';
+import { A06a3GuestConnecionsLandingScrollComponent } from './coped-over/a06a3-guest-connecions-landing-scroll/a06a3-guest-connecions-landing-scroll.component';
+import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-guest-connecions-landing-search/a06b-guest-connecions-landing-search.component';
+import { A06cGuestRequestsLandingComponent } from './coped-over//a06c-guest-requests-landing/a06c-guest-requests-landing.component';
 import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
 import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
-import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
-import { OrgDetailsComponent } from './org-details/org-details.component';
+import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
+import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
+import { IndexLandingComponent } from './index-landing/index-landing.component';
 
 
 
@@ -49,6 +49,7 @@ const routes: Routes = [
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
   { path: 'guest-display', component: A01d2GuestDisplayComponent},
   { path: 'org-details', component: OrgDetailsComponent},
+  { path: 'index-landing', component: IndexLandingComponent},
 
 
   // { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
@@ -77,8 +78,6 @@ const routes: Routes = [
   { path: 'quest-landing-swipe-right', component: A06a2GuestConnecionsLandingSwipeRightComponent},
   { path: 'quest-landing-scroll', component: A06a3GuestConnecionsLandingScrollComponent},
   { path: 'quest-landing-search', component: A06bGuestConnecionsLandingSearchComponent},
-  { path: 'quest-requests-landing-swipe-left', component: A06c1GuestRequestsLandingSwipeLeftComponent},
-  { path: 'quest-requests-landing-swipe-right', component: A06c1GuestRequestsLandingSwipeLeftComponent},
   { path: 'quest-connection-indicator', component: A05cGuestConnectionIndicatorComponent},
   { path: 'quest-rewards', component: D09dQuestRewardsComponent},
   { path: 'hamburger-nav-account', component: A04a2HamNavManageAccountComponent},
