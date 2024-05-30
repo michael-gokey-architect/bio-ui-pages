@@ -98,18 +98,17 @@ import { MaterialModule } from './material/material.module';
     A06a3GuestConnecionsLandingScrollComponent,
     A06bGuestConnecionsLandingSearchComponent,
     C05cEventLandingComponent,
-    A01d1GuestLandingM24Component,
-    OrgDetailsComponent
-
+		A01d1GuestLandingM24Component,
+    OrgDetailsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatExpansionModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

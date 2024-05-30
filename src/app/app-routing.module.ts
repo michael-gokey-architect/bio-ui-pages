@@ -39,6 +39,7 @@ import { A06c1GuestRequestsLandingSwipeLeftComponent } from './coped-over/a06c1-
 import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
 import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
+import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
 
 
@@ -87,6 +88,7 @@ const routes: Routes = [
 
   { path: 'guest-welcome-back', component: A01bGuestWelcomeBackComponent},
   { path: 'vendor-landing', component: B04aVendorAboutLandingDisplayComponent},
+  { path: 'theme-switcher', component: ThemeSwitcherComponent},
   { path: '',  redirectTo: 'guest', pathMatch: 'full'},
   { path: "**", redirectTo: 'page-not-found' },
 ];
