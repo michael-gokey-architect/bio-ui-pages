@@ -1,10 +1,12 @@
 <div class="theme-container">
-	<p>THEME PICKER</p>
+	<label for="theme-options">THEME PICKER</label>
 	<div class="theme-options">
-		<button (click)="setTheme('protoGrays')">Proto Grays</button>
-		<button (click)="setTheme('pathWRQ')">PathWRQ</button>
-		<button (click)="setTheme('nyAutoshow')">NY Int Autoshow</button>
-		<button (click)="setTheme('dragonCon')">DragonCon</button>
+		<select name="theme-options" id="themeoptions" aria-label="ThemeOptions">
+			<option value="protoGrays">Proto Grays</option>
+			<option value="pathWRQ">PathWRQ</option>
+			<option value="nyAutoshow">NY Int Autoshow</option>
+			<option value="dragonCon">DragonCon</option>
+		</select>
 	</div>
 	<div class="test-switcher" id="proto-grays" *ngIf="theme === 'protoGrays'">
 		<div class="color-block color-one"></div>
