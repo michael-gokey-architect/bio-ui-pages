@@ -3,6 +3,7 @@ import { RouterModule, Routes,  TitleStrategy, RouterStateSnapshot } from '@angu
 // https://www.telerik.com/blogs/angular-basics-router-link-overview
 import { GuestProfileComponent } from './built/guest-profile/guest-profile.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './A1-page-not-found/page-not-found.component';
 import { PageErrorComponent } from './A1-page-error/page-error.component';
 // import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component'
@@ -13,12 +14,10 @@ import { PageErrorComponent } from './A1-page-error/page-error.component';
 // import { A04aHamburgerNavComponent } from './built/a04a-hamburger-nav/a04a-hamburger-nav.component';
 // import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 // import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
-
-import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 // import { A01bGuestWelcomeComponent } from './built/a01b-guest-welcome/a01b-guest-welcome.component';
 // import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
-import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
-
+// import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
+// import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 
 import { A04a2HamNavManageAccountComponent } from './built/a04a2-ham-nav-manage-account/a04a2-ham-nav-manage-account.component';
 import { B04dVendorMediaKitDisplayComponent } from './built/b04d-vendor-media-kit-display/b04d-vendor-media-kit-display.component';
@@ -41,6 +40,10 @@ import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landi
 import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
 import { ThemeSwitcherComponent } from './theme-switcher/theme-switcher.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
+import { IndexLandingComponent } from './index-landing/index-landing.component';
+import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
+import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+
 
 
 

@@ -4,6 +4,7 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppRoutingModule } from './app-routing.module';
+import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -14,7 +15,7 @@ import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a
 import { A01c2GuestAboutComponent } from './built/a01c2-guest-about/a01c2-guest-about.component';
 import { A01c3GuestSocialMediaComponent } from './built/a01c3-guest-social-media/a01c3-guest-social-media.component';
 import { A01c4GuestWebLinksComponent } from './built/a01c4-guest-web-links/a01c4-guest-web-links.component';
-import { A01d2GuestDisplayComponent } from './coped-over/coped-over/a01d2-guest-display/a01d2-guest-display.component';
+import { A01d2GuestDisplayComponent } from './coped-over/a01d2-guest-display/a01d2-guest-display.component';
 import { B04aVendorBioAboutComponent } from './b04a-vendor-bio-about/b04a-vendor-bio-about.component';
 import { B04bVendorBioLandingDisplayComponent } from './b04b-vendor-bio-landing-display/b04b-vendor-bio-landing-display.component';
 import { B04cVendorMediaBuildComponent } from './b04c-vendor-media-build/b04c-vendor-media-build.component';
@@ -50,7 +51,7 @@ import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-gue
 import { C05cEventLandingComponent } from './a05c-event-landing/c05c-event-landing.component';
 import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
-import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
