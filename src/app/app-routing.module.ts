@@ -39,6 +39,7 @@ import { A06c1GuestRequestsLandingSwipeLeftComponent } from './a06c1-guest-reque
 import { A06c1GuestRequestsLandingSwipeRightComponent } from './a06c1-guest-requests-landing-swipe-right/a06c1-guest-requests-landing-swipe-right.component';
 import { A05bGuestPublicLandingComponent } from './built/a05b-guest-public-landing/a05b-guest-public-landing.component';
 import { A01d2GuestDisplayComponent } from './a01d2-guest-display/a01d2-guest-display.component';
+import { OrgDetailsComponent } from './org-details/org-details.component';
 
 
 
@@ -47,6 +48,8 @@ const routes: Routes = [
   // { path: 'guest-about', component: A01c2GuestAboutComponent },
   { path: 'guest-landing', component: A05bGuestPublicLandingComponent},
   { path: 'guest-display', component: A01d2GuestDisplayComponent},
+  { path: 'org-details', component: OrgDetailsComponent},
+
 
   // { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
   // { path: 'guest-weblinks', component: A01c4GuestWebLinksComponent },
