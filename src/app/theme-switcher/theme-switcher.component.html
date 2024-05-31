@@ -2,10 +2,10 @@
 	<label for="theme-options">THEME PICKER</label>
 	<div class="theme-options">
 		<select name="theme-options" id="themeoptions" aria-label="ThemeOptions">
-			<option value="themeGrays">Theme Grays</option>
-			<option value="themeBlues">Theme Blues</option>
-			<option value="themeReds">Theme Reds</option>
-			<option value="themePurples">Theme Purples</option>
+			<option value="themeGrays" [selected]="theme === 'themeGrays'">Theme Grays</option>
+			<option value="themeBlues" [selected]="theme === 'themeBlues'">Theme Blues</option>
+			<option value="themeReds" [selected]="theme === 'themeReds'">Theme Reds</option>
+			<option value="themePurples" [selected]="theme === 'themePurples'">Theme Purples</option>
 		</select>
 	</div>
 	<div class="test-switcher" id="theme-grays" *ngIf="theme === 'themeGrays'">
