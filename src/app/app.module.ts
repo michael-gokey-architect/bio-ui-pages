@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 import { AppRoutingModule } from './app-routing.module';
+import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -50,7 +51,7 @@ import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-gue
 import { C05cEventLandingComponent } from './a05c-event-landing/c05c-event-landing.component';
 import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
-import { MaterialModule } from './material/material.module';
+
 
 @NgModule({
   declarations: [
@@ -68,7 +69,6 @@ import { MaterialModule } from './material/material.module';
     B04aVendorBioAboutComponent,
     B04bVendorBioLandingDisplayComponent,
     B04cVendorMediaBuildComponent,
-    // B04dVendorMediaDisplayComponent,
     B04eVendorShopDisplayComponent,
     B04fVendorStoreConnectComponent,
     B04gVendorStoreConnectCodesComponent,
@@ -91,8 +91,6 @@ import { MaterialModule } from './material/material.module';
     A05cGuestConnectionIndicatorComponent,
     A06aGuestConnecionsLandingComponent,
     A06cGuestRequestsLandingComponent,
-    // A04a2HamNavManageAccountComponent,
-    // B04dVendorMediaKitDisplayComponent,
     A06a1GuestConnecionsLandingSwipeLeftComponent,
     A06a2GuestConnecionsLandingSwipeRightComponent,
     A06a3GuestConnecionsLandingScrollComponent,
