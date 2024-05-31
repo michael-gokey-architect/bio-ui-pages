@@ -111,10 +111,16 @@
 }
 
 #theme-reds {
-	.color-one {
+	.header-icon {
+		filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(205deg) brightness(101%) contrast(102%);
+	}
+	.color-one,
+	.bg-badge {
 		background-color: #000;
 	}
-	.color-two {
+	.color-two,
+	.header,
+	.bg-profile {
 		background-color: #252525;
 	}
 	.color-three {
@@ -127,13 +133,24 @@
 		background-color: #DADADA;
 	}
 	.color-six {
-		background-color: #C9132F;
+		background-color: #840417;
 	}
-	.color-seven {
+	.color-seven,
+	.primary-button,
+	.bg-badge-blur {
 		background-color: #C9132F;
 	}
 	.color-eight {
 		background-color: #FFF;
+	}
+	.header,
+	.bg-profile p,
+	.primary-button,
+	.text-white {
+		color: #FFF;
+	}
+	.primary-button {
+		border-radius: 0px;
 	}
 }
 
