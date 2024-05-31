@@ -6,18 +6,22 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+
+
+/* Custom styles */
 .text-patchwrq {
     color: white;
 }
-
 .bg-patchwrq {
     background-color: #063771;
 }
-
 .bg-dragoncon {
     background-color: #60217B;
 }
-
 .bg-nyas {
     background-color: #C9132F;
 }
+/* These chould not be here yet. 
+They shoudl still be in the local componets CSS file, 
+as its not gloably applied yet */
+
