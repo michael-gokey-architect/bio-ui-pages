@@ -171,3 +171,17 @@ https://www.npmjs.com/package/@ng-icons/heroicons
 TODO:Robyne  5/24
 https://www.npmjs.com/package/@ng-icons/heroicons
 
+TODO:Jay 6/3
+Hey Jay, the following components should be build out. If you've made these already but for somereason they're not showing currently, could you drop in what you've already done? Otherwise you can work on these and I'll get you more screens in a ouple days.
+
+a1-page-error
+a1-page-not-found
+a05c-guest-requests-landing
+b-e08a-event-home
+b-e08b-event-schedule
+b04a-vendor-bio-about
+b04b-vendor-bio-landing
+b04c-vendor-media-build
+b04f-vendor-store-connect
+b09c-quest-qr-component
+b09e-quest-redeemed
