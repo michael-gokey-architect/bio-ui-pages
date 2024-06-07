@@ -43,6 +43,7 @@ import { OrgDetailsComponent } from './coped-over/org-details/org-details.compon
 import { IndexLandingComponent } from './index-landing/index-landing.component';
 import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { A05cGuestRequestsLandingComponent } from './a05c-guest-requests-landing/a05c-guest-requests-landing.component';
 
 
 
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'guest-display', component: A01d2GuestDisplayComponent},
   { path: 'org-details', component: OrgDetailsComponent},
   { path: 'index-landing', component: IndexLandingComponent},
+  { path: 'guest-requests', component: A05cGuestRequestsLandingComponent},
 
 
   // { path: 'guest-social', component: A01c3GuestSocialMediaComponent},

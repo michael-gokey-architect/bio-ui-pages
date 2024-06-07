@@ -51,6 +51,7 @@ import { A06bGuestConnecionsLandingSearchComponent } from './coped-over/a06b-gue
 import { C05cEventLandingComponent } from './a05c-event-landing/c05c-event-landing.component';
 import { A01d1GuestLandingM24Component } from './a01d1-guest-landing-m24/a01d1-guest-landing-m24.component';
 import { OrgDetailsComponent } from './coped-over/org-details/org-details.component';
+import { A05cGuestRequestsLandingComponent } from './a05c-guest-requests-landing/a05c-guest-requests-landing.component';
 
 
 @NgModule({
@@ -98,6 +99,7 @@ import { OrgDetailsComponent } from './coped-over/org-details/org-details.compon
     C05cEventLandingComponent,
 		A01d1GuestLandingM24Component,
     OrgDetailsComponent,
+    A05cGuestRequestsLandingComponent,
   ],
   imports: [
     BrowserModule,
