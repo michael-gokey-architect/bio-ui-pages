@@ -44,6 +44,7 @@ import { IndexLandingComponent } from './index-landing/index-landing.component';
 import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
 import { A05cGuestRequestsLandingComponent } from './a05c-guest-requests-landing/a05c-guest-requests-landing.component';
+import { E08aEventHomeComponent } from './b-e08a-event-home/e08a-event-home.component';
 
 
 
@@ -55,6 +56,7 @@ const routes: Routes = [
   { path: 'guest-display', component: A01d2GuestDisplayComponent},
   { path: 'org-details', component: OrgDetailsComponent},
   { path: 'index-landing', component: IndexLandingComponent},
+  { path: 'event-home', component: E08aEventHomeComponent},
   { path: 'guest-requests', component: A05cGuestRequestsLandingComponent},
 
 
