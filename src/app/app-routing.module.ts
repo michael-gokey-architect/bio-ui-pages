@@ -43,6 +43,10 @@ import { OrgDetailsComponent } from './coped-over/org-details/org-details.compon
 import { IndexLandingComponent } from './index-landing/index-landing.component';
 import { A01bGuestWelcomeBackComponent } from './built/a01b-guest-welcome-back/a01b-guest-welcome-back.component';
 import { B04aVendorAboutLandingDisplayComponent } from './built/b04a-vendor-about-landing-display/b04a-vendor-about-landing-display.component';
+import { A05cGuestRequestsLandingComponent } from './a05c-guest-requests-landing/a05c-guest-requests-landing.component';
+import { E08aEventHomeComponent } from './b-e08a-event-home/e08a-event-home.component';
+import { E08bEventScheduleComponent } from './b-e08b-event-schedule/e08b-event-schedule.component';
+import { B04bVendorBioLandingDisplayComponent } from './b04b-vendor-bio-landing-display/b04b-vendor-bio-landing-display.component';
 
 
 
@@ -54,6 +58,10 @@ const routes: Routes = [
   { path: 'guest-display', component: A01d2GuestDisplayComponent},
   { path: 'org-details', component: OrgDetailsComponent},
   { path: 'index-landing', component: IndexLandingComponent},
+  { path: 'event-home', component: E08aEventHomeComponent},
+  { path: 'event-schedule', component: E08bEventScheduleComponent},
+  { path: 'guest-requests', component: A05cGuestRequestsLandingComponent},
+  { path: 'vendor-bio-landing', component: B04bVendorBioLandingDisplayComponent},
 
 
   // { path: 'guest-social', component: A01c3GuestSocialMediaComponent},
